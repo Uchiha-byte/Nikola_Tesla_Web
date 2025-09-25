@@ -1,0 +1,27 @@
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+    border-style:double;
+    border-color: cyan;
+    border-width: 5px;
+    font-size: 50px;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    padding: 10px;
+    font-size: 30px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}

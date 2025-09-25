@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the life, inventions, and legacy of Nikola Tesla - The Genius Who Lit Up the World">
+    <meta name="keywords" content="Nikola Tesla, Tesla inventions, AC current, Tesla coil, wireless energy, electricity, inventor, scientist">
+    <meta name="author" content="Tesla Legacy Project">
+    <title>Nikola Tesla | The Genius Who Lit Up the World</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Video Background -->
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="tesla-background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-bolt"></i>
+                <span>Tesla Legacy</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#biography" class="nav-link">Biography</a></li>
+                <li><a href="#inventions" class="nav-link">Inventions</a></li>
+                <li><a href="#timeline" class="nav-link">Timeline</a></li>
+                <li><a href="#quotes" class="nav-link">Quotes</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Nikola Tesla</h1>
+            <h2 class="hero-subtitle">The Genius Who Lit Up the World</h2>
+            <p class="hero-description">
+                A visionary inventor, electrical engineer, mechanical engineer, and futurist who designed the modern alternating current (AC) electricity supply system.
+            </p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">300+</span>
+                    <span class="stat-label">Patents</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">1856</span>
+                    <span class="stat-label">Born</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">1943</span>
+                    <span class="stat-label">Died</span>
+                </div>
+            </div>
+            <a href="#biography" class="cta-button">Explore His Life</a>
+        </div>
+    </section>
+
+    <!-- Biography Section -->
+    <section id="biography" class="biography">
+        <div class="container">
+            <h2 class="section-title">The Life of a Genius</h2>
+            <div class="bio-content">
+                <div class="bio-text">
+                    <h3>Early Life</h3>
+                    <p>Nikola Tesla was born on July 10, 1856, in Smiljan, Austrian Empire (modern-day Croatia). From an early age, Tesla displayed extraordinary mental abilities and an eidetic memory. His father, Milutin Tesla, was a Serbian Orthodox priest, and his mother, Đuka Tesla, was an inventor in her own right, creating household appliances.</p>
+                    
+                    <h3>Education & Early Career</h3>
+                    <p>Tesla studied electrical engineering at the Austrian Polytechnic in Graz and later at the University of Prague. In 1881, he moved to Budapest to work for the Central Telephone Exchange, where he made his first major invention - a telephone repeater.</p>
+                    
+                    <h3>The American Dream</h3>
+                    <p>In 1884, Tesla immigrated to the United States with only 4 cents in his pocket and a letter of recommendation to Thomas Edison. He worked briefly for Edison but left due to disagreements over AC vs DC current systems.</p>
+                    
+                    <h3>Later Years</h3>
+                    <p>Despite his brilliant inventions, Tesla struggled financially in his later years. He died alone in room 3327 of the New Yorker Hotel on January 7, 1943, at the age of 86. His ashes are now displayed in a golden sphere at the Nikola Tesla Museum in Belgrade.</p>
+                </div>
+                <div class="bio-image">
+                    <img src="tesla-ac.jpg" alt="Nikola Tesla Portrait" class="tesla-portrait">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inventions Section -->
+    <section id="inventions" class="inventions">
+        <div class="container">
+            <h2 class="section-title">Revolutionary Inventions</h2>
+            <div class="inventions-grid">
+                <div class="invention-card" data-invention="ac">
+                    <div class="invention-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Alternating Current (AC)</h3>
+                    <p>Tesla's AC system revolutionized power distribution, making it possible to transmit electricity over long distances efficiently. This system powers the modern world.</p>
+                    <div class="invention-details">
+                        <strong>Year:</strong> 1888<br>
+                        <strong>Impact:</strong> Powers 90% of the world's electricity<br>
+                        <strong>Patent:</strong> US 381,968
+                    </div>
+                </div>
+
+                <div class="invention-card" data-invention="tesla-coil">
+                    <div class="invention-icon">
+                        <i class="fas fa-wave-square"></i>
+                    </div>
+                    <h3>Tesla Coil</h3>
+                    <p>A high-voltage, high-frequency transformer that produces spectacular electrical discharges. The foundation for radio technology and wireless communication.</p>
+                    <div class="invention-details">
+                        <strong>Year:</strong> 1891<br>
+                        <strong>Impact:</strong> Radio, TV, wireless technology<br>
+                        <strong>Patent:</strong> US 454,622
+                    </div>
+                </div>
+
+                <div class="invention-card" data-invention="wireless">
+                    <div class="invention-icon">
+                        <i class="fas fa-broadcast-tower"></i>
+                    </div>
+                    <h3>Wireless Energy Transmission</h3>
+                    <p>Tesla envisioned a world where electricity could be transmitted wirelessly through the air. His Wardenclyffe Tower was designed to demonstrate this technology.</p>
+                    <div class="invention-details">
+                        <strong>Year:</strong> 1901<br>
+                        <strong>Impact:</strong> Modern wireless charging<br>
+                        <strong>Status:</strong> Experimental
+                    </div>
+                </div>
+
+                <div class="invention-card" data-invention="radio">
+                    <div class="invention-icon">
+                        <i class="fas fa-radio"></i>
+                    </div>
+                    <h3>Radio Technology</h3>
+                    <p>Tesla developed the fundamental principles of radio communication, including the Tesla oscillator and wireless transmission of signals.</p>
+                    <div class="invention-details">
+                        <strong>Year:</strong> 1893<br>
+                        <strong>Impact:</strong> Modern radio, TV, WiFi<br>
+                        <strong>Patent:</strong> US 645,576
+                    </div>
+                </div>
+
+                <div class="invention-card" data-invention="induction-motor">
+                    <div class="invention-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Induction Motor</h3>
+                    <p>The first practical AC motor, which converts electrical energy into mechanical energy. Still used in most household appliances today.</p>
+                    <div class="invention-details">
+                        <strong>Year:</strong> 1887<br>
+                        <strong>Impact:</strong> Industrial motors, appliances<br>
+                        <strong>Patent:</strong> US 381,968
+                    </div>
+                </div>
+
+                <div class="invention-card" data-invention="xray">
+                    <div class="invention-icon">
+                        <i class="fas fa-x-ray"></i>
+                    </div>
+                    <h3>X-Ray Technology</h3>
+                    <p>Tesla experimented with X-rays before Wilhelm Röntgen's official discovery, creating some of the first X-ray images of the human body.</p>
+                    <div class="invention-details">
+                        <strong>Year:</strong> 1894<br>
+                        <strong>Impact:</strong> Medical imaging<br>
+                        <strong>Status:</strong> Experimental
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <h2 class="section-title">Tesla's Timeline</h2>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-date">1856</div>
+                    <div class="timeline-content">
+                        <h3>Birth</h3>
+                        <p>Born in Smiljan, Austrian Empire (modern Croatia)</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1875</div>
+                    <div class="timeline-content">
+                        <h3>Education</h3>
+                        <p>Enrolled at Austrian Polytechnic in Graz</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1881</div>
+                    <div class="timeline-content">
+                        <h3>First Invention</h3>
+                        <p>Invented telephone repeater in Budapest</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1884</div>
+                    <div class="timeline-content">
+                        <h3>America</h3>
+                        <p>Immigrated to United States, worked for Edison</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1887</div>
+                    <div class="timeline-content">
+                        <h3>Tesla Electric Company</h3>
+                        <p>Founded his own company, developed AC motor</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1891</div>
+                    <div class="timeline-content">
+                        <h3>Tesla Coil</h3>
+                        <p>Invented the Tesla Coil transformer</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1893</div>
+                    <div class="timeline-content">
+                        <h3>World's Fair</h3>
+                        <p>Lighted the Chicago World's Columbian Exposition</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1895</div>
+                    <div class="timeline-content">
+                        <h3>Niagara Falls</h3>
+                        <p>AC power plant at Niagara Falls completed</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1901</div>
+                    <div class="timeline-content">
+                        <h3>Wardenclyffe Tower</h3>
+                        <p>Began construction of wireless transmission tower</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1943</div>
+                    <div class="timeline-content">
+                        <h3>Death</h3>
+                        <p>Died in New York City at age 86</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quotes Section -->
+    <section id="quotes" class="quotes">
+        <div class="container">
+            <h2 class="section-title">Tesla's Wisdom</h2>
+            <div class="quotes-container">
+                <div class="quote-card">
+                    <div class="quote-text">
+                        "The present is theirs; the future, for which I really worked, is mine."
+                    </div>
+                    <div class="quote-author">- Nikola Tesla</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-text">
+                        "I don't care that they stole my idea... I care that they don't have any of their own."
+                    </div>
+                    <div class="quote-author">- Nikola Tesla</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-text">
+                        "The scientists of today think deeply instead of clearly. One must be sane to think clearly, but one can think deeply and be quite insane."
+                    </div>
+                    <div class="quote-author">- Nikola Tesla</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-text">
+                        "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration."
+                    </div>
+                    <div class="quote-author">- Nikola Tesla</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-text">
+                        "The day science begins to study non-physical phenomena, it will make more progress in one decade than in all the previous centuries of its existence."
+                    </div>
+                    <div class="quote-author">- Nikola Tesla</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-text">
+                        "Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more."
+                    </div>
+                    <div class="quote-author">- Nikola Tesla</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Tesla's World</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="tesla-ac.jpg" alt="Tesla AC System" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>AC Power System</h3>
+                        <p>The revolutionary alternating current system</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="space.jpg" alt="Tesla's Vision" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Tesla's Vision</h3>
+                        <p>Wireless energy transmission</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Tesla_coil.jpg" alt="Tesla's Legacy" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Modern Impact</h3>
+                        <p>Tesla's inventions power our world</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Join Tesla's Legacy</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Share Your Thoughts</h3>
+                    <p>Tell us about your favorite Tesla invention or how his work has inspired you. Join the community of Tesla enthusiasts and innovators.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Inspired by Innovation</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-globe"></i>
+                            <span>Global Tesla Community</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Future Technology</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="favorite-invention">Favorite Tesla Invention:</label>
+                        <select id="favorite-invention" name="favorite-invention" required>
+                            <option value="">Select an invention</option>
+                            <option value="ac">Alternating Current (AC)</option>
+                            <option value="tesla-coil">Tesla Coil</option>
+                            <option value="wireless">Wireless Energy Transmission</option>
+                            <option value="radio">Radio Technology</option>
+                            <option value="induction-motor">Induction Motor</option>
+                            <option value="xray">X-Ray Technology</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" placeholder="Share your thoughts about Tesla's legacy..." rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tesla Legacy</h3>
+                    <p>Exploring the life and achievements of Nikola Tesla, the genius who lit up the world.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#biography">Biography</a></li>
+                        <li><a href="#inventions">Inventions</a></li>
+                        <li><a href="#timeline">Timeline</a></li>
+                        <li><a href="#quotes">Quotes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="https://teslauniverse.com" target="_blank">Tesla Universe</a></li>
+                        <li><a href="https://www.teslasciencecenter.org" target="_blank">Tesla Science Center</a></li>
+                        <li><a href="https://www.teslamuseum.com" target="_blank">Tesla Museum</a></li>
+                        <li><a href="https://www.loc.gov/collections/nikola-tesla-papers" target="_blank">Library of Congress</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tesla Legacy Project. All rights reserved. | "The present is theirs; the future, for which I really worked, is mine." - Nikola Tesla</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
